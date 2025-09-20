@@ -26,7 +26,9 @@ Versión de testeo para la FastAPI. En este notebook realizamos una traducción 
 - Se traduce mediante Google Translator
 - Devuelve una consulta SQL mediante un prompt definido con instrucciones (limitaciones).
 
+
 ## S3-Trigger-RDS-versionfinal
+Lambda que recoge nuevos datos de la API.
 Lambda que identifica un evento en S3 de subida de un nuevo archivo –demanda del día anterior– y lo pasa a la base de datos en RDS.
 
 ## FastAPI-Energy
